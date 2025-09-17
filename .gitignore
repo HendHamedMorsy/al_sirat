@@ -1,0 +1,96 @@
+# =========================
+# Flutter & Dart
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.packages
+.pub-cache/
+.pub/
+build/
+.metadata
+coverage/
+pubspec.lock
+
+# =========================
+# iOS
+# =========================
+ios/Flutter/.last_build_id
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/flutter-configuration.json
+ios/Flutter/flutter_framework.framework
+ios/Flutter/FlutterApp.framework
+ios/Flutter/Flutter.framework
+ios/Pods/
+ios/.symlinks/
+
+# Xcode
+*.xcworkspace
+xcuserdata/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+# CocoaPods
+Podfile.lock
+
+# =========================
+# Android
+# =========================
+.android/
+.gradle/
+local.properties
+app/debug/
+app/profile/
+app/release/
+**/*.iml
+*.gradle
+*.kts
+*.properties
+*.xml
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+.vscode/settings.json
+
+# Android Studio swap files
+*.swp
+
+# =========================
+# OS Files
+# =========================
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
+# Linux
+*~
+
+# =========================
+# Logs & Temp
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# Fastlane
+# =========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# =========================
+# FVM
+# =========================
+.fvm/
+.fvmrc

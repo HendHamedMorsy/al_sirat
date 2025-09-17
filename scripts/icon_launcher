@@ -1,0 +1,7 @@
+#!/bin/bash
+# for generating the file of flutter_launcher_icons
+dart run flutter_launcher_icons:generate
+
+# for creating the flutter_launcher_icons
+flutter pub get
+dart run flutter_launcher_icons

@@ -1,0 +1,4 @@
+#!/bin/bash
+fvm flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart -O lib/translation
+fvm flutter pub run easy_localization:generate -S assets/translations -o codegen_loader.g.dart -O lib/translation
+echo -e "// ignore_for_file: constant_identifier_names\n$(cat ./lib/translation/locale_keys.g.dart)" > ./lib/translation/locale_keys.g.dart
